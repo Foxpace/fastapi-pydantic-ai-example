@@ -1,5 +1,7 @@
 # FastAPI Pydantic AI Example
 
+Full article here: <http://tomasrepcik.dev/blog/2025/2025-09-07-pydantic-ai-intro/>
+
 A simple FastAPI application demonstrating integration with Pydantic AI using Ollama for local AI model inference.
 
 ## Prerequisites
