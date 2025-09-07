@@ -1,0 +1,12 @@
+[project]
+name = "fastapi-pydantic-ai-example"
+version = "0.1.0"
+description = "FastAPI application with Pydantic AI integration using Ollama"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.116.1",
+    "uvicorn[standard]>=0.35.0",
+    "pydantic-ai>=1.0.1",
+    "pydantic>=2.11.7",
+]

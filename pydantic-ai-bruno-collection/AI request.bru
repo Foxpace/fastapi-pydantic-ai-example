@@ -1,0 +1,18 @@
+meta {
+  name: AI request
+  type: http
+  seq: 1
+}
+
+post {
+  url: {{domain}}/ai
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "message": "Hello",
+    "instructions": "Be helpful assistant"
+  }
+}
